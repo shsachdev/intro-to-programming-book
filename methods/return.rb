@@ -1,5 +1,7 @@
-def add_three(number)
-  return number + 3
+def add_three(n)
+  new_value = n + 3
+  puts new_value
+  new_value
 end
 
-puts add_three(6)
+add_three(5)
