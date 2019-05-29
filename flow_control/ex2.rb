@@ -1,10 +1,10 @@
 def caps(string)
   if string.length > 10
-    string.upcase
+    return string.upcase
   else
-    string
+    return string
   end
-end
+end 
 
 puts caps('hellowedewdewdewdwede')
 puts caps('sach')
