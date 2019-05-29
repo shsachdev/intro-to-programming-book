@@ -4,7 +4,7 @@ def caps(string)
   else
     return string
   end
-end 
+end
 
 puts caps('hellowedewdewdewdwede')
 puts caps('sach')
