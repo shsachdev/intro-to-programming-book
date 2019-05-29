@@ -1,6 +1,5 @@
 def some_method(number)
   number = 7
-  puts number
 end
 
 
