@@ -1,13 +1,12 @@
 contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
 contacts = {"Joe Smith" => {}}
 
-new_contacts = contacts["Joe Smith"]
-#new_contacts[:email]
+fields = [:email, :address, :phone]
 
-new_contacts.each do |key, value|
-  n = 0
-  new_contacts[key] = contact_data[n]
-  n = n + 1
+contacts.each do |name, hash|
+  fields.each do |field|
+    hash[field] = contact_data.shift
+  end
 end
 
-puts new_contacts
+puts contacts
